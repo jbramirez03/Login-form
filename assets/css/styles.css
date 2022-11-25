@@ -141,6 +141,26 @@ img {
   margin-bottom: 0.25rem;
 }
 
+.login__input {
+  width: 100%;
+  padding: 14px 12px;
+  border-radius: 6px;
+  border: 2px solid var(--text-color);
+  background-color: hsla(244, 16%, 92%, 0.6);
+  color: var(--title-color);
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  transition: border 0.4s;
+}
+
+.login__input::placeholder {
+  color: var(--text-color);
+}
+
+.login__input:focus {
+  border: 2px solid var(--first-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
