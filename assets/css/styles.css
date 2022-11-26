@@ -213,6 +213,24 @@ img {
   font-size: var(--small-font-size);
 }
 
+.login__buttons {
+  display: flex;
+  column-gap: 0.75rem;
+}
+
+.login__button {
+  width: 100%;
+  padding: 14px 2rem;
+  border-radius: 6px;
+  background: linear-gradient(180deg, var(--first-color), var(--second-color));
+  color: #fff;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  box-shadow: 0 6px 24px hsla(244, 75%, 48%, 0.5);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
