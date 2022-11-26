@@ -231,6 +231,20 @@ img {
   cursor: pointer;
 }
 
+.login__button-ghost {
+  background: hsla(244, 16%, 92%, 0.6);
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+  box-shadow: none;
+}
+
+.login__forgot {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+  text-decoration: none;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
