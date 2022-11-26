@@ -197,6 +197,22 @@ img {
   border-radius: 0.25rem;
 }
 
+.login__check-input:checked {
+  background: var(--first-color);
+}
+
+.login__check-input:checked::before {
+  content: "✓";
+  display: block;
+  color: #fff;
+  font-size: 0.75rem;
+  transform: translate(1.5px, -2.5px);
+}
+
+.login__check-label {
+  font-size: var(--small-font-size);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
